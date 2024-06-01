@@ -1,7 +1,15 @@
 <html>
-    <div id="sigma-block" style="padding-left: 1024px;">
+    <div id="sigma-block">
         <label>hello world</label>
         <img src="assets/images.jpg">
     </div>
 </html>
 
+<script>
+    $(document).ready(function (){
+        let x = window.innerWidth/2;
+        let y = window.innerHeight/2;
+
+        $("#sigma-block").style.padding = x + "px 0px " + y + "px 0px";
+    });
+</script>
