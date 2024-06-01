@@ -13,13 +13,13 @@
 <html style="background-color: purple">
     <head>
         <div style="background-color: rgb(110, 110, 24); width: 100%;">
-            <h1>Twinker Bell & Con con Fan Club</h1>
+            <h1>Twinker Bell & Con Con Fan Club</h1>
             <h2>Boys Only</h2>
             <div class="row">
-                <button id="noah-pics">
+                <button id="noah-pics" onclick="redirectNoah()">
                     Noah Pictures
                 </button>
-                <button id="connor-pics" onclick="redirectConnor()">
+                <button id="connor-pics">
                     Connor Pictures
                 </button>
             </div>
@@ -29,7 +29,7 @@
         <div id="sigma-block" style="width: 100%;">
             <table style="width: 100%; background-color:blueviolet">
                 <thead>
-                    <td>Pictures of Noah</td>
+                    <td>Pictures of Connor</td>
                     <td>Why I like this picture</td>
                     <td>Rating</td>
                 </thead>
@@ -55,9 +55,7 @@
     </body>
 </html>
 <script>
-
-    function redirectConnor(){
-        window.location.href="connor.html";
+    function redirectNoah(){
+        window.location.href="index.html"
     }
-
 </script>
